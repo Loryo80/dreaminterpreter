@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wave pattern -->
+  <path d="M0 400C200 300 400 500 600 400S800 300 1200 400V800H0V400Z" fill="url(#wave-gradient)"/>
+  
+  <!-- Flowing lines -->
+  <g opacity="0.3">
+    <path d="M0 350C300 250 500 450 800 350" stroke="white" stroke-width="0.5" fill="none"/>
+    <path d="M100 380C400 280 600 480 900 380" stroke="white" stroke-width="0.5" fill="none"/>
+    <path d="M200 410C500 310 700 510 1000 410" stroke="white" stroke-width="0.5" fill="none"/>
+  </g>
+
+  <!-- Crescent moon -->
+  <path d="M900 200A50 50 0 0 1 950 250A40 40 0 1 0 900 200Z" fill="white"/>
+
+  <!-- Stars -->
+  <path d="M800 100L810 120L830 110L810 100L800 120Z" fill="white"/>
+  <path d="M1000 150L1010 170L1030 160L1010 150L1000 170Z" fill="white"/>
+  <path d="M700 180L710 200L730 190L710 180L700 200Z" fill="white"/>
+
+  <!-- Circles -->
+  <circle cx="850" cy="300" r="5" fill="white" opacity="0.5"/>
+  <circle cx="950" cy="280" r="3" fill="white" opacity="0.7"/>
+  <circle cx="750" cy="250" r="4" fill="white" opacity="0.6"/>
+
+  <!-- Organic shapes -->
+  <path d="M600 500Q650 450 700 500T800 500Q850 450 900 500" stroke="white" fill="none" opacity="0.4"/>
+  <path d="M500 550Q550 500 600 550T700 550Q750 500 800 550" stroke="white" fill="none" opacity="0.3"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="wave-gradient" x1="600" y1="300" x2="600" y2="800">
+      <stop offset="0%" stop-color="white" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    
+    <radialGradient id="star-gradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Additional decorative elements -->
+  <g opacity="0.2">
+    <circle cx="100" cy="200" r="2" fill="white"/>
+    <circle cx="150" cy="250" r="1" fill="white"/>
+    <circle cx="200" cy="180" r="1.5" fill="white"/>
+    <circle cx="1100" cy="220" r="2" fill="white"/>
+    <circle cx="1050" cy="280" r="1" fill="white"/>
+  </g>
+
+  <!-- Flowing patterns -->
+  <path d="M300 600C400 550 500 650 600 600S700 550 800 600" stroke="white" stroke-width="0.3" fill="none" opacity="0.4"/>
+  <path d="M250 650C350 600 450 700 550 650S650 600 750 650" stroke="white" stroke-width="0.3" fill="none" opacity="0.3"/>
+</svg>
